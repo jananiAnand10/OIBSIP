@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to-do-App</title>
+    <script src="C:\Users\Janani Anand\Desktop\todo\todoscript.js"></script>
+    <link rel="stylesheet" href="C:\Users\Janani Anand\Desktop\todo\dostyle.css">
+</head>
+<body>
+<div class="app-container">
+        <div class="enter">
+            <input type="text" id="task" placeholder="Add a new task" style="margin-right: 20px;margin-left:10px;">
+            <input type="datetime-local" id="taskDateTime" placeholder="Task Date and Time"style="margin-right:10px;">
+            <button id="add-task" onclick="addToList()" style="margin-right:5px;">ADD</button>
+        </div>
+        <div class="row">
+           <div class="column" id="column2">
+                <h1 style="color:white;">Completed Tasks</h1>
+                <ul id="task_done"></ul>
+            </div>
+            <div class="column" id="column1">
+                <h1 style="color:white; text-align: center;">All Tasks</h1>
+                <ul id="task_list"></ul>
+            </div>
+            <div class="column" id="column3">
+                <h1 style="color:white; text-align:right; margin-right:80px ;">Pending Tasks</h1>
+                <ul id="task_left"></ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,106 @@
+.app-container
+{
+    background-image:url("mainbg.png");
+    display:flexbox;
+    background-size: cover;
+    height: 100vh
+    
+}
+
+.enter {
+    
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.enter task
+{
+    padding-right: 50px;
+}
+
+#add-task
+{
+    background-color: rgba(236, 128, 89, 0.8);
+    color:white;
+    font-size: 20px;
+    border:none;
+    padding: 16px;
+    border-radius:10px;
+    width:100px;
+    font-weight:bold;
+}
+
+.enter input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px !important; /* Add !important to override other styles */
+    font-weight: bold;
+    height: 50px;
+    width: 700px !important; /* Adjust the width as needed and use !important */
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgba(255,255,255,0.8);
+}
+#task_list li
+{
+    background-color:  rgba(0, 0, 0, 0.8);
+    color:rgb(228, 224, 224);
+    width:380px;
+    padding:18px;
+    font-size:22px;
+    list-style: none;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    margin-left: px;
+    text-align:left ;
+   
+}
+.column
+{
+  float:left;
+  width: 30%;
+  padding: 22px;
+  height: 300px;
+ 
+}
+
+#task_done li
+{
+    background-color:  rgba(197, 154, 203, 0.8);
+    color:rgb(228, 224, 224);
+    width:250px;
+    padding:20px;
+    font-size:22px;
+    list-style: none;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+#task_left li
+{
+    background-color:  rgba(236, 128, 89, 0.6);
+    color:rgb(228, 224, 224);
+    width:280px;
+    padding:20px;
+    font-size:22px;
+    list-style: none;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    text-align: left;
+
+}
+#button1,
+#button2
+{
+    height:30px;
+    width:30px;
+    padding:2px;
+    margin-left: 4px;
+    text-align: center;
+    vertical-align: middle;
+}
